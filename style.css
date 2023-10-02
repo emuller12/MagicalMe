@@ -1,0 +1,107 @@
+.sparkle {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/2728.png) 36 36, auto;
+}
+
+.eagle {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f985.png) 36 36, auto;
+}
+
+.globe {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f30d.png) 36 36, auto;
+}
+
+section{
+  display: flex;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: hotpink;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  right: 100;
+}
+.oscar:hover .tooltiptext{
+  visibility: visible;
+  
+}
+
+.tooltiptext {
+  visibility:hidden;
+    width: 120px;
+  background-color: hotpink;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 800px;
+  right: 600px;
+}
+.prez:hover .tooltiptext{
+  visibility: visible;
+  
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: hotpink;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  right: 100;
+}
+.globe:hover .tooltiptext{
+  visibility: visible;
+  
+}
+figure{
+  display:flex;
+  align-self: flex start;
+  position: sticky;
+  top: 3em;
+}
+
+body {
+  background-color:lightpink;
+    font-family:; 
+  margin: 1.5rem auto;
+  max-width: 80rem;
+}
+h1 {
+  color:white;
+    text-align: center;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    
+}
+h2 {
+  color:Hotpink;
+    text-align: center;
+  margin-bottom: 1rem;
+  font-size: 7rem;
+  font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    
+}
+h3 {
+  color:darkpink;
+    text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-family: 'Bitter', serif;
+    font-weight: 100;
